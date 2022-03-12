@@ -1,8 +1,9 @@
 
   
   # Notabilis
+  A Unit 11 Express.js assignment.
 
-  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ---
   ## Description
