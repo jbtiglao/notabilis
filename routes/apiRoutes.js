@@ -1,11 +1,11 @@
 // Required dependencies
-const fs = require('fs');
+import { readFile, writeFile } from 'fs';
 
-module.exports = fuction(app) {
+export default fuction(app) 
 
     // GET /api/notes - reads the db.json file, returns all saved notes as JSON
     app.get('/api/notes', function(req, res) {
-        fs.readFile('./db/db.json', (err, data) => {
+        readFile('./db/db.json', (err, data) => {
             if (err) throw err;
             dbData = JSON.parse(data);
             res.send(dbData);
@@ -17,7 +17,7 @@ module.exports = fuction(app) {
     app.post('/api/notes', function(req, res) {
         const userNotes = req.body;
 
-        fs.readFile('./db/db.json', (err, data) => {
+        readFile('./db/db.json', (err, data) => {
             if (err) throw err;
             dbData = JSON.parse(data);
             dbData.push(userNotes);
@@ -31,7 +31,7 @@ module.exports = fuction(app) {
 
             stringData = JSON.stringify(dbData);
 
-            fs.writeFile('./db/db.json', stringData, (err, data) => {
+            writeFile('./db/db.json', stringData, (err, data) => {
                 if (err) throw err;
             });
         });
@@ -47,7 +47,7 @@ module.exports = fuction(app) {
         const deleteNote = req.params.id;
         console.log(deleteNote);
 
-        fs.readFile('./db/db.json', (err, data) => {
+        readFile('./db/db.json', (err, data) => {
             if (err) throw err;
 
             // Comparing each note's id to delete note
@@ -60,11 +60,11 @@ module.exports = fuction(app) {
             console.log(dbData);
             stringData = JSON.stringify(dbData);
 
-            fs.writeFile('./db/db.json', stringData, (err, data) => {
+            writeFile('./db/db.json', stringData, (err, data) => {
                 if (err) throw err;
             });
         });
         // Express response.status no content
         res.status(204).send();
     });
-};
+;
