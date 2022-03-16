@@ -1,24 +1,23 @@
 // Required dependencies
-const express = require("express");
-const fs = require("fs");
-const path = require("path");
+const express = require('express');
+const path = require('path');
+const fs = require('fs');
 
-// Initialize express app
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
+
+// Initialize express app and create a port
 const app = express();
-
-// Initialize a PORT variable
 const PORT = process.env.PORT || 3000;
 
-// Set up express to handle data parsing
-app.use(express.urlencoded({ extended: true}));
+// Set up body parsing, static, and route middleware
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
-
-// Routes 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+app.use(express.static('public'));
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // Set up listener
 app.listen(PORT, () => {
-    console.log("App is listening on PORT: " + PORT);
+    console.log(`Now listening on PORT: ${PORT}`);
 });
