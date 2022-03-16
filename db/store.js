@@ -1,6 +1,6 @@
 import { promisify } from 'util';
 import { readFile, writeFile } from 'fs';
-import { v1 as uuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
 
 const readFileAsync = promisify(readFile);
 const writeFileAsync = promisify(writeFile);
