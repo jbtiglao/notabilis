@@ -1,10 +1,19 @@
-const path = require("path");
+// Required dependencies
+import { join } from 'path';
 
-module.exports = function(app) {
+export default function(app) {
 
+    // Returns notes.html file
+    app.get('/notes', function(req, res) {
+        res,sendFile(join(__dirname, '../public/notes.html'));
+    });
 
-    // Display notes.html when /notes is accessed
+    app.get('/', function(req, res) {
+        res.sendFile(join(__dirname, '../public/index.html'));
+    });
 
-
-    // Updates json file when a note is added or deleted
-}
+    // Returns index.html file
+    app.get('*', function(req, res) {
+        res.sendFile(join(__dirname, '../public/index.html'));
+    });
+};
