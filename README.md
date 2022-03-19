@@ -18,23 +18,43 @@
 
   ### Appearance
   The application has the following interface:
-  * (Put Image1 here)
-  * (Put Image2 here)
+  
+ ![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116133-21f2e8b0-a853-4f8b-9b30-76ebcd11ad35.png)
+
+<img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116141-e4439f86-ee7c-4a2e-9173-d70cbab39344.png">
+
 
   ### Deployed Site
 
-  To see how the application and its functionalities work, see the [deployed site here - Put Heroku link here.]([Heroku])
+  To see how the application and its functionalities work, see the [deployed site on Heroku here.](https://boiling-mountain-57904.herokuapp.com)
 
   ### Features
   The application has the following features and functionalities:
   1. When the Note Taker is opened, the user is presented with a landing page with a link to a notes page.
+
+![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116226-7f6280a0-b71f-46cc-854a-da740abdd015.png)
+
   2. When the Get Started button is clicked, the notes page is opened.
+
+<img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116256-e6ddfedc-5b3e-44a7-bc97-b56b1c1ef0e4.png">
+
   3. The notes page would have existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
+
   4. When the user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page.
+  
+  ![image3_saveicon](https://user-images.githubusercontent.com/94569484/159116292-b71a1dfb-d433-42d5-b84a-11f41d680fee.png)
+
+  
   5. When the Save icon is clicked, the new note the user entered is saved and appears in the left-hand column with the other existing notes.
+  
   6. When the user clicks on an existing note in the list in the left-hand column, the note will appear in the right-hand column.
+  
   7. When the user clicks on the Write icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note’s text in the right-hand column.
+  
   8. When the user clicks on the trash can icon, the note that corresponds to it is deleted. 
+  
+  ![image4_deleteicon](https://user-images.githubusercontent.com/94569484/159116337-fb569358-b1d0-4107-9836-2a46752e4b2e.png)
+
 
   ### Back End Requirements
 
