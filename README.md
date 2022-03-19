@@ -21,6 +21,8 @@
   
  ![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116133-21f2e8b0-a853-4f8b-9b30-76ebcd11ad35.png)
 Landing page (index.html)
+
+
 <img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116141-e4439f86-ee7c-4a2e-9173-d70cbab39344.png">
 Note page (notes.html)
 
@@ -134,7 +136,7 @@ The application will then listen on ```localhost:3001```.
 
   ---
   ## License
-  License used for this project - 
+  License used for this project - [![License: MIT](https://opensource.org/licenses/MIT)
   
   For more information on the above license and other license types, please see the following websites:  
   - [Open Source Initiative](https://opensource.org/licenses)
