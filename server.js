@@ -44,7 +44,7 @@ function createNewNote(body, notesArray) {
 
     notesArray.push(newNote);
     fs.writeFileSync(
-        path.join(__dirname, './db/db.jdon'),
+        path.join(__dirname, './db/db.json'),
         JSON.stringify(notesArray, null, 2)
     );
     return newNote;
@@ -73,7 +73,7 @@ function deleteNote(id, notesArray) {
     }
 }
 
-//DELETE route
+//DELETE API
 app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, allNotes);
     res.json(true);
@@ -82,5 +82,5 @@ app.delete('/api/notes/:id', (req, res) => {
 
 // Set up listener
 app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}`);
+    console.log(`App listening on port ${PORT}.`);
 });
