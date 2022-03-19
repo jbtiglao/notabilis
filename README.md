@@ -183,7 +183,7 @@ The application will then listen on ```localhost:3001```.
   ## Questions
   For questions or issues, please contact: 
   - Jane Tiglao 
-  - Email: (To follow)
+  - Email: janeytiglao@gmail.com
   - GitHub Username: jbtiglao
   - GitHub Profile: https://github.com/jbtiglao
 
