@@ -33,7 +33,7 @@ Note page (notes.html)
 
   ### Features
   The application has the following features and functionalities:
-  1. When the Note Taker is opened, the user is presented with a landing page with a link to a notes page.
+  1. When the Note Taker is opened, the user is presented with a landing page with a link to the notes page.
 
 ![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116226-7f6280a0-b71f-46cc-854a-da740abdd015.png)
 
@@ -41,7 +41,7 @@ Note page (notes.html)
 
 <img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116256-e6ddfedc-5b3e-44a7-bc97-b56b1c1ef0e4.png">
 
-  3. The notes page would have existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
+  3. The notes page have existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
 
   4. When the user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page.
   
@@ -159,7 +159,7 @@ The application will then listen on ```localhost:3001```.
   * [cdnjs](https://cdnjs.com)
   * [Heroku](https://heroku.com)
 
-  And to the UCI Bootcamp grader who reviewed my readme generator and encouraged me to come up with a unique name for my assignments/repository to stand out -- it was a very valuable advice and one of the important things I learned in this journey. Thank you.
+  And to the UCI Bootcamp grader who reviewed my readme generator and encouraged me to come up with a unique name for my assignments/repository to stand out -- do something uncommon and get out of my comfort zone in the process-- it was a very valuable advice and one of the important things I learned in this journey. Thank you.
 
   ---
   ## Author
