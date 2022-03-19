@@ -130,7 +130,7 @@ The application will then listen on ```localhost:3001```.
 
   ---
   ## Usage
-  Please see the deployed application on [Heroku link here](Heroku), as well as the application's description and functionality images.
+  Please see the deployed application on [Heroku here](https://boiling-mountain-57904.herokuapp.com), as well as the discussion on the application's description and functionalities above.
 
   ---
   ## License
