@@ -128,8 +128,6 @@ node server.js
 
 The application will then listen on ```localhost:3001```.
 
----
-  
   ---
   ## Usage
   Please see the deployed application on [Heroku link here](Heroku), as well as the application's description and functionality images.
@@ -162,7 +160,7 @@ The application will then listen on ```localhost:3001```.
   The following people/resources were consulted and/or utilized in the development of this application:
   (Working list)
 
-  * Unit 11 Express.js materials, UCI Bootcamp.
+  * Unit 11 Express.js and Heroku install and deployment materials, UCI Bootcamp.
   * [Express.js](https://expressjs.com/en/starter/installing.html)
   * [npm](https://npmjs.com)
   * [path](https://www.npmjs.com/package/path)
