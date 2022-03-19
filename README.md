@@ -159,7 +159,7 @@ The application will then listen on ```localhost:3001```.
   * [cdnjs](https://cdnjs.com)
   * [Heroku](https://heroku.com)
 
-  And to the UCI Bootcamp grader who reviewed my readme generator and encouraged me to come up with a unique name for my assignments/repository to stand out -- do something uncommon and get out of my comfort zone in the process-- it was a very valuable advice and one of the important things I learned in this journey. Thank you.
+  And to the UCI Bootcamp grader who reviewed my readme generator and encouraged me to come up with a unique name for my assignments/repository to stand out -- and do something uncommon and get out of my comfort zone in the process-- it was a very valuable advice and one of the important things I learned in this journey. Thank you.
 
   ---
   ## Author
