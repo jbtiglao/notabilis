@@ -136,7 +136,7 @@ The application will then listen on ```localhost:3001```.
 
   ---
   ## License
-  License used for this project - [![License: MIT](https://opensource.org/licenses/MIT)
+  License used for this project - [MIT](https://opensource.org/licenses/MIT)
   
   For more information on the above license and other license types, please see the following websites:  
   - [Open Source Initiative](https://opensource.org/licenses)
