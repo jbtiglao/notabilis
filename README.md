@@ -99,25 +99,11 @@ Note page (notes.html)
   https://github.com/jbtiglao/notabilis
 
 ```
-To install modules defined in the dependencies section of the `package.json` file, on the Visual Studio Code terminal, run:
+To install modules defined in the dependencies section of the `package.json` file, run:
 ```
 npm install 
 ```
 
-To install express, run:
-```
-npm i express
-```
-
-To install fs, run:
-```
-npm i fs
-```
-
-To install path, run:
-```
-npm i path
-```
 To automatically restart the node application when file changes in the directory are detected, ```nodemon``` was installed by running:
 ```
 npm i nodemon
