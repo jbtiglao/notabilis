@@ -27,7 +27,7 @@ Note page (notes.html)
 
   ### Deployed Site
 
-  To see how the application and its functionalities work, see the [deployed site on Heroku here.](https://boiling-mountain-57904.herokuapp.com)
+  To see how the application and its functionalities work, check out the deployed site on Heroku [https://boiling-mountain-57904.herokuapp.com](https://boiling-mountain-57904.herokuapp.com).
 
   ### Features
   The application has the following features and functionalities:
