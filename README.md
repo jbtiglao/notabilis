@@ -19,44 +19,67 @@
   ### Appearance
   The application has the following interface:
   
- ![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116133-21f2e8b0-a853-4f8b-9b30-76ebcd11ad35.png)
 Landing page (index.html)
 
+![Image1_landing_page](https://user-images.githubusercontent.com/94569484/159151503-41a5367f-0089-43e0-a3bc-7b2831345e67.png)
 
-<img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116141-e4439f86-ee7c-4a2e-9173-d70cbab39344.png">
+![Image2_note_page](https://user-images.githubusercontent.com/94569484/159151564-b146b6ac-0b0f-4bc3-9f5d-388cd9e7f754.png)
+
 Note page (notes.html)
 
 
   ### Deployed Site
 
   To see how the application and its functionalities work, check out the deployed site on Heroku [https://boiling-mountain-57904.herokuapp.com](https://boiling-mountain-57904.herokuapp.com).
+  
+  ![Image3_heroku_deployed_site](https://user-images.githubusercontent.com/94569484/159151605-ca8799e3-fa92-4230-8eb2-d71b00cfd831.png)
+
 
   ### Features
   The application has the following features and functionalities:
   1. When the Note Taker is opened, the user is presented with a landing page with a link to the notes page.
 
-![image1_landingpage](https://user-images.githubusercontent.com/94569484/159116226-7f6280a0-b71f-46cc-854a-da740abdd015.png)
+![Image1_landing_page](https://user-images.githubusercontent.com/94569484/159151613-388be503-1763-4865-8423-cf5b4acea5f4.png)
+
 
   2. When the Get Started button is clicked, the notes page is opened.
 
-<img width="1269" alt="image2_notepage" src="https://user-images.githubusercontent.com/94569484/159116256-e6ddfedc-5b3e-44a7-bc97-b56b1c1ef0e4.png">
-
   3. The notes page have existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
+
+![Image4_note_page_with_notes](https://user-images.githubusercontent.com/94569484/159151672-1bc8727c-7369-418c-9e30-9011072e4315.png)
+
 
   4. When the user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page.
   
-  ![image3_saveicon](https://user-images.githubusercontent.com/94569484/159116292-b71a1dfb-d433-42d5-b84a-11f41d680fee.png)
+
+![Image5_save_icon](https://user-images.githubusercontent.com/94569484/159151843-94fe6988-df3c-42bb-b071-3f52c6dd372b.png)
 
   
   5. When the Save icon is clicked, the new note the user entered is saved and appears in the left-hand column with the other existing notes.
   
-  6. When the user clicks on an existing note in the list in the left-hand column, the note will appear in the right-hand column.
+![Image5_save_icon](https://user-images.githubusercontent.com/94569484/159151890-1cfc8aa5-12a4-411f-b066-ff390010e594.png)
+
+
+![Image6_saved_note](https://user-images.githubusercontent.com/94569484/159151894-f1089ccc-6602-4dd4-9616-7e48a2c65c8a.png)
+
   
+  6. When the user clicks on an existing note in the list in the left-hand column, the note will appear in the right-hand column.
+
+![Image7_saved_note_when_clicked](https://user-images.githubusercontent.com/94569484/159151925-aecceb62-0eef-42c6-bcd7-3c3735842ab9.png)
+
   7. When the user clicks on the Write icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note’s text in the right-hand column.
   
+  ![Image8_new_note](https://user-images.githubusercontent.com/94569484/159151951-7ecd8e2e-5a87-44ba-90c5-1f12db351329.png)
+
   8. When the user clicks on the trash can icon, the note that corresponds to it is deleted. 
   
-  ![image4_deleteicon](https://user-images.githubusercontent.com/94569484/159116337-fb569358-b1d0-4107-9836-2a46752e4b2e.png)
+![Image9_trash_icon](https://user-images.githubusercontent.com/94569484/159151968-b9777c70-0af3-4e6d-ae47-3c63e5adc40b.png)
+
+![Image10_delete_note](https://user-images.githubusercontent.com/94569484/159151982-7261e588-d124-43ca-a49c-a0b3d12fe10c.png)
+
+  9. When the user clicks on the Write  icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note's text in the right-hand column.
+  
+![Image11_new_note](https://user-images.githubusercontent.com/94569484/159152284-387cc08d-0157-43b2-ab9e-efafda586ed4.png)
 
 
   ### Back End Requirements
@@ -136,9 +159,20 @@ The application will then listen on ```localhost:3001```.
 
   ---
   ## Tests
-  1. The application and its functionalities were tested manually by opening the application in a web browser and performing each of the functions.
+  1. The application and its functionalities are tested locally by entering ```localhost:3001``` in the browser. (Note: For this assignment, the author used Chrome.) 
+  
+  ![Image12_test_localhost](https://user-images.githubusercontent.com/94569484/159152411-d550d035-ff89-4f52-b07e-5b1d8e685e24.png)
 
-  2. For the application to listen on the given port, on the terminal run:
+  * To inspect the application, open Chrome DevTools, right-click on the landing page, then select Inspect. The developer console window will appear. On the top menu, click on Network. The Network panel will appear. Meanwhile, on the application's landing page, click start and make a new note and save it. The Network inspection tool will show data on the web application's performance. 
+  
+ ![Image16_test](https://user-images.githubusercontent.com/94569484/159153112-c75e6e51-8ff3-437e-b9f4-72c493d1b9c3.png)
+
+  2. The application and its functionalities were also tested manually upon deployment on Heroku, by accessing the deployed website's URL in a browser.
+  
+  ![Image3_heroku_deployed_site](https://user-images.githubusercontent.com/94569484/159153218-8a5fe3cd-232c-4484-b4c1-f89671b439d8.png)
+
+  
+  3. For the application to listen on the given port, on the terminal run:
   ```
   node server.js
   ```
@@ -159,6 +193,8 @@ The application will then listen on ```localhost:3001```.
   * [cdnjs](https://cdnjs.com)
   * [Heroku](https://heroku.com)
 
+  My instructor Jackie Tseng, for patiently answering all my questions and walking me through testing my app (and backend code) locally.
+  
   And to the UCI Bootcamp grader who reviewed my readme generator and encouraged me to come up with a unique name for my assignments/repository to stand out -- and do something uncommon and get out of my comfort zone in the process-- it was a very valuable advice and one of the important things I learned in this journey. Thank you.
 
   ---
