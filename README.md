@@ -175,7 +175,6 @@ The application will then listen on ```localhost:3001```.
   ---
   ## Credits
   The following people/resources were consulted and/or utilized in the development of this application:
-  (Working list)
 
   * Unit 11 Express.js and Heroku install and deployment materials, UCI Bootcamp.
   * [Express.js](https://expressjs.com/en/starter/installing.html)
