@@ -187,7 +187,7 @@ The application will then listen on ```localhost:3001```.
   * [cdnjs](https://cdnjs.com)
   * [Heroku](https://heroku.com)
   
-  Tears for Fears, for writing and performing one of the best songs ever written. Everybody Wants to Rule the World song lyrics from [Genius](https://genius.com/Tears-for-fears-everybody-wants-to-rule-the-world-lyrics)
+  Tears for Fears, for writing and performing one of the best songs ever written. Everybody Wants to Rule the World song lyrics from [Genius](https://genius.com/Tears-for-fears-everybody-wants-to-rule-the-world-lyrics).
   
   My instructor Jackie Tseng, for patiently answering all my questions and walking me through testing my app (and backend code) locally.
   
