@@ -57,8 +57,6 @@ Note page (notes.html)
   
   5. When the Save icon is clicked, the new note the user entered is saved and appears in the left-hand column with the other existing notes.
   
-![Image5_save_icon](https://user-images.githubusercontent.com/94569484/159151890-1cfc8aa5-12a4-411f-b066-ff390010e594.png)
-
 
 ![Image6_saved_note](https://user-images.githubusercontent.com/94569484/159151894-f1089ccc-6602-4dd4-9616-7e48a2c65c8a.png)
 
@@ -67,7 +65,7 @@ Note page (notes.html)
 
 ![Image7_saved_note_when_clicked](https://user-images.githubusercontent.com/94569484/159151925-aecceb62-0eef-42c6-bcd7-3c3735842ab9.png)
 
-  7. When the user clicks on the Write icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note’s text in the right-hand column.
+  7. When the user clicks on the Write or New Note (+) icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note’s text in the right-hand column.
   
   ![Image8_new_note](https://user-images.githubusercontent.com/94569484/159151951-7ecd8e2e-5a87-44ba-90c5-1f12db351329.png)
 
@@ -77,9 +75,6 @@ Note page (notes.html)
 
 ![Image10_delete_note](https://user-images.githubusercontent.com/94569484/159151982-7261e588-d124-43ca-a49c-a0b3d12fe10c.png)
 
-  9. When the user clicks on the Write  icon in the navigation at the top of the page, the user is presented with empty fields to enter a new note title and the note's text in the right-hand column.
-  
-![Image11_new_note](https://user-images.githubusercontent.com/94569484/159152284-387cc08d-0157-43b2-ab9e-efafda586ed4.png)
 
 
   ### Back End Requirements
