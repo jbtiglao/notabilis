@@ -154,11 +154,11 @@ The application will then listen on ```localhost:3001```.
 
   ---
   ## Tests
-  1. The application and its functionalities are tested locally by entering ```localhost:3001``` in the browser. (Note: For this assignment, the author used Chrome.) 
+  1. The application and its functionalities are tested locally by entering ```localhost:3001``` in the browser. 
   
   ![Image12_test_localhost](https://user-images.githubusercontent.com/94569484/159152411-d550d035-ff89-4f52-b07e-5b1d8e685e24.png)
 
-  * To inspect the application, open Chrome DevTools, right-click on the landing page, then select Inspect. The developer console window will appear. On the top menu, click on Network. The Network panel will appear. Meanwhile, on the application's landing page, click start and make a new note and save it. The Network inspection tool will show data on the web application's performance. 
+  (Note: For this assignment, the author used Chrome. To inspect the application, open Chrome DevTools, right-click on the landing page, then select Inspect. To access the Network panel, on the developer console window, select Network from the top menu. The Network inspection tool will show you data on the web application's performance as you click the application's Get Started button and test its functionalities by creating or saving a new note, or deleting a saved note.)
   
  ![Image16_test](https://user-images.githubusercontent.com/94569484/159153112-c75e6e51-8ff3-437e-b9f4-72c493d1b9c3.png)
 
