@@ -44,7 +44,7 @@ Note page (notes.html)
 
   2. When the Get Started button is clicked, the notes page is opened.
 
-  3. The notes page have existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
+  3. The notes page has existing notes listed in the left-hand column. There are empty fields to enter a new note title and the note’s text in the right-hand column.
 
 ![Image4_note_page_with_notes](https://user-images.githubusercontent.com/94569484/159151672-1bc8727c-7369-418c-9e30-9011072e4315.png)
 
@@ -158,7 +158,7 @@ The application will then listen on ```localhost:3001```.
   
   ![Image12_test_localhost](https://user-images.githubusercontent.com/94569484/159152411-d550d035-ff89-4f52-b07e-5b1d8e685e24.png)
 
-  (Note: For this assignment, the author used Chrome. To inspect the application, open Chrome DevTools, right-click on the landing page, then select Inspect. To access the Network panel, on the developer console window, select Network from the top menu. The Network inspection tool will show you data on the web application's performance as you click the application's Get Started button and test its functionalities by creating or saving a new note, or deleting a saved note.)
+  <i>(Note: For this assignment, the author used Chrome. To inspect the application, open Chrome DevTools, right-click on the landing page, then select Inspect. To access the Network panel, on the developer console window, select Network from the top menu. The Network inspection tool will show you data on the web application's performance as you click the application's Get Started button and test its functionalities by creating or saving a new note, or deleting a saved note.)</i>
   
  ![Image16_test](https://user-images.githubusercontent.com/94569484/159153112-c75e6e51-8ff3-437e-b9f4-72c493d1b9c3.png)
 
